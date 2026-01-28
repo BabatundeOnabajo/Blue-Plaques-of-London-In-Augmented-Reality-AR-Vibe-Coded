@@ -5,4 +5,6 @@ This is a mobile phone game that users can play in London. It involves hovering 
 
 # Instructions
 
+# Advanced Settings
+
 # Extent of assistance with "vibe coding"
