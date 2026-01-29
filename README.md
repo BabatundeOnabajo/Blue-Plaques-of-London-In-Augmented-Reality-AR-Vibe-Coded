@@ -1,4 +1,5 @@
 ![Images](https://github.com/BabatundeOnabajo/Blue-Plaques-of-London-In-Augmented-Reality-AR-Vibe-Coded/blob/main/1769582657178.png)
+This image was created with the help of Google Gemini.
 
 # Blue-Plaques-of-London-In-Augmented-Reality-AR-Vibe-Coded
 This is a mobile phone game that users can play in London. It involves hovering your phone over a blue plaque on a building organised by the English Heritage charity and you will be asked a number of questions in a quiz about the person commemorated by the plaque. 
@@ -8,6 +9,7 @@ The app was built partly (although not entirely, see below under the section "Ex
 1. Amazon Bedrock - Claude Opus 4.1
 2. Amazon Bedrock - Claude Opus 4.5
 3. ChatGPT
+4. Google Gemini (for the icon image)
 
 Three LLM platforms were used rather than the more usual one because the augmented reality toolkit provided by Google, called ARCore, is not well-documented and has inconsistent documentation. Furthermore, some platforms outperformed certain aspects of the app development process than others. That it took three LLM platforms to create this app rather than just one highlights the complexity of the Android app development process.
 
@@ -70,5 +72,6 @@ This app conforms to one of the Sustainable Development Goals (SDGs), in this ca
 This app utilised "vibe coding", which is a new way of software development that involves utilising LLMs to help build software. There are many valid criticisms of this form of software development. In this particular case, vibe coding helped speed up the process of creating this app: what might have ordinarily taken a month or so to have created to get a barebones "skeleton" took around several days. However, despite this, it still involved multiple uses of LLMs, and from different providers, mainly because of the documentation provided by Google and its facility ARCore not being well documented. Although vibe coding is sometimes seen as "amateurish", in this particular case it still required a very advanced knowledge of Android app development and its corresponding Integrated Development Environment (IDE) which is Android Studio. One interesting tidbit is that some of the information provided by the LLM was wrong. For example, it recommended using a List with the generic type argument list "string", when in fact it should be "String" (capitalised "S"). It seems the LLM was confused between C# and Java, and this highlights why prior knowledge of programming is essential when wanting to "vibe code". A screenshot of this is provided below:
 
 ![Images](https://github.com/BabatundeOnabajo/Blue-Plaques-of-London-In-Augmented-Reality-AR-Vibe-Coded/blob/main/Screenshot%202026-01-27%20at%2014.53.58.png)
+
 
 This documentation has been written entirely by a human.
