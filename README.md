@@ -24,12 +24,15 @@ There are some limitations with this app. The first is that in order to use the 
 # Potential room for improvement
 There is some room for improvement with this app. The first is that as of January 29th 2026, this app only has an Android version available. There is a folder in this Github for iOS but that has not been released as of this date. In the context of the Android app, the app should have the ability to zoom in. As of today's date, which is January 29th 2026, there is no ability to do this. 
 
-Another improvement is cosmetic: the app icon 
+Another improvement is cosmetic: the app icon currently is the default Android icon. Should a future update be warranted, then a "blue plaque" 
 
 # Troubleshooting
 
 # Blue Plaque Examples
-For those not in London or confined to indoors, you can trial out the app at home. Let's use the example of the 20th century economist John Maynard Keynes. He has a Blue Plaque and this is commemorated on the [website of English Heritage](https://www.english-heritage.org.uk/visit/blue-plaques/john-maynard-keynes/).
+For those not in London or confined to indoors, you can trial out the app at home. Let's use the example of the 20th century economist John Maynard Keynes. He has a Blue Plaque and this is commemorated on the [website of English Heritage](https://www.english-heritage.org.uk/visit/blue-plaques/john-maynard-keynes/). A screenshot of their website is also shown below. Be sure to hover your phone and you should see something like the screenshot underneath!
+
+![Images](https://github.com/BabatundeOnabajo/Blue-Plaques-of-London-In-Augmented-Reality-AR-Vibe-Coded/blob/main/Screenshot%202026-01-28%20at%2015.35.31.png)
+![Images](https://github.com/BabatundeOnabajo/Blue-Plaques-of-London-In-Augmented-Reality-AR-Vibe-Coded/blob/main/Screenshot_20260128_110502_Blue%20Plaques%20of%20London%20in%20AR.jpg)
 
 # Sustainable Development Goals (SDGs)
 
