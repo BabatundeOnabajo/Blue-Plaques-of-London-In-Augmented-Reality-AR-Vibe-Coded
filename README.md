@@ -22,7 +22,9 @@ This area is for those who understand the Android development process and want t
 There are some limitations with this app. The first is that in order to use the app in real life, you need to stand very closely to the Blue Plaque otherwise the app will either not detect the Blue Plaque or it will return "Unknown". As a guide, to use this app effectively, you need to ensure that the Blue Plaque is within one half of your arm's distance, and on the same plane as your chest. Relatedly, there is no option to zoom in or out in this app (see below for "Potential room for improvement"). 
 
 # Potential room for improvement
-There is some room for improvement with this app. The first is that as of January 29th 2026, this app only has an Android version available. There is a folder in this Github for iOS but that has not been released as of this date. In the context of the Android app, 
+There is some room for improvement with this app. The first is that as of January 29th 2026, this app only has an Android version available. There is a folder in this Github for iOS but that has not been released as of this date. In the context of the Android app, the app should have the ability to zoom in. As of today's date, which is January 29th 2026, there is no ability to do this. 
+
+Another improvement is cosmetic: the app icon 
 
 # Troubleshooting
 
@@ -32,6 +34,8 @@ For those not in London or confined to indoors, you can trial out the app at hom
 # Sustainable Development Goals (SDGs)
 
 # Extent of assistance with "vibe coding"
-This app utilised "vibe coding", which is a new way of software development that involves utilising LLMs to help build software. There are many valid criticisms of this form of software development. In this particular case, vibe coding helped speed up the process of creating this app: what might have ordinarily taken a month or so to have created to get a barebones "skeleton" took around several days. However, despite this, it still involved multiple uses of LLMs, and from different providers, mainly because of the documentation provided by Google and its facility ARCore not being well documented. Although vibe coding is sometimes seen as "amateurish", in this particular case it still required a very advanced knowledge of Android app development and its corresponding Integrated Development Environment (IDE) which is Android Studio. One interesting tidbit is that some of the information provided by the LLM was wrong. For example, it recommended using a List with the generic type argument list "string", when in fact it should be "String" (capitalised "S"). It seems the LLM was confused between C# and Java, and this highlights why prior knowledge of programming is essential when wanting to "vibe code".
+This app utilised "vibe coding", which is a new way of software development that involves utilising LLMs to help build software. There are many valid criticisms of this form of software development. In this particular case, vibe coding helped speed up the process of creating this app: what might have ordinarily taken a month or so to have created to get a barebones "skeleton" took around several days. However, despite this, it still involved multiple uses of LLMs, and from different providers, mainly because of the documentation provided by Google and its facility ARCore not being well documented. Although vibe coding is sometimes seen as "amateurish", in this particular case it still required a very advanced knowledge of Android app development and its corresponding Integrated Development Environment (IDE) which is Android Studio. One interesting tidbit is that some of the information provided by the LLM was wrong. For example, it recommended using a List with the generic type argument list "string", when in fact it should be "String" (capitalised "S"). It seems the LLM was confused between C# and Java, and this highlights why prior knowledge of programming is essential when wanting to "vibe code". A screenshot of this is provided below:
+
+![](Screenshot 2026-01-27 at 14.53.58.png)
 
 This documentation has been written entirely by a human.
