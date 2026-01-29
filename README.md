@@ -17,6 +17,9 @@ Three LLM platforms were used rather than the more usual one because the augment
 This area is for those who understand the Android development process and want to configure this app so that the app generates images with the help of AWS Bedrock or OpenAI.
 
 # Limitations
+There are some limitations with this app. The first is that in order to use the app in real life, you need to stand very closely to the Blue Plaque otherwise the app will either not detect the Blue Plaque or it will return "Unknown". As a guide, to use this app effectively, you need to ensure that the Blue Plaque is within one half of your arm's distance, and on the same plane as your chest. Relatedly, there is no option to zoom in or out in this app (see below for "Potential room for improvement"). 
+
+# Potential room for improvement
 
 # Troubleshooting
 
