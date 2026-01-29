@@ -1,0 +1,103 @@
+plugins {
+    alias(libs.plugins.android.application)
+    alias(libs.plugins.jetbrains.kotlin.android)
+}
+
+android {
+    namespace 'com.example.newmediawritingprizesubmission2'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId "com.example.newmediawritingprizesubmission2"
+        minSdk 24
+        targetSdk 35
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+
+        // API Keys from gradle.properties
+        buildConfigField "String", "OPENAI_API_KEY", "\"${OPENAI_API_KEY}\""
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildFeatures {
+        buildConfig true
+        dataBinding true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    packaging {
+        resources {
+            excludes += ['META-INF/INDEX.LIST']
+            excludes += ['META-INF/DEPENDENCIES']
+            excludes += ['META-INF/LICENSE']
+            excludes += ['META-INF/LICENSE.txt']
+            excludes += ['META-INF/NOTICE']
+            excludes += ['META-INF/NOTICE.txt']
+            excludes += ['META-INF/ASL2.0']
+            excludes += ['META-INF/io.netty.versions.properties']
+        }
+    }
+}
+
+dependencies {
+    // AndroidX & Material
+    implementation libs.androidx.core.ktx
+    implementation libs.androidx.appcompat
+    implementation libs.material
+    implementation libs.androidx.activity
+    implementation libs.androidx.constraintlayout
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.6.2"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:1.9.10"
+
+    // ARCore + SceneView (The correct modern pairing)
+    implementation "com.google.ar:core:1.41.0"
+    implementation "io.github.sceneview:arsceneview:2.2.1"
+
+    // ML Kit OCR
+    implementation 'com.google.mlkit:text-recognition:16.0.0'
+
+    // Networking & Image Loading
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation 'com.github.bumptech.glide:glide:4.15.1'
+
+    // AWS SDK
+    implementation 'software.amazon.awssdk:bedrock:2.21.0'
+    implementation 'software.amazon.awssdk:bedrockruntime:2.21.0'
+    implementation 'software.amazon.awssdk:auth:2.21.0'
+
+    // Added these for AWS Comprehend
+    implementation 'software.amazon.awssdk:comprehend:2.21.0'
+
+    // Location & Utilities
+    implementation 'com.google.android.gms:play-services-location:21.0.1'
+    implementation 'org.json:json:20230227'
+
+    implementation "androidx.lifecycle:lifecycle-runtime:2.8.6"
+    implementation "androidx.lifecycle:lifecycle-livedata:2.8.6"
+
+
+    // We need to add these below to deal with compilation issues.
+
+    // Unit tests (src/test)
+    testImplementation 'junit:junit:4.13.2'
+
+    // Android instrumented tests (src/androidTest)
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+
+
+}
