@@ -26,4 +26,6 @@ There are some limitations with this app. The first is that in order to use the 
 # Blue Plaque Examples
 For those not in London or confined to indoors, you can trial out the app at home. Let's use the example of the 20th century economist John Maynard Keynes. He has a Blue Plaque and this is commemorated on the [website of English Heritage](https://www.english-heritage.org.uk/visit/blue-plaques/john-maynard-keynes/).
 
+# Sustainable Development Goals (SDGs)
+
 # Extent of assistance with "vibe coding"
