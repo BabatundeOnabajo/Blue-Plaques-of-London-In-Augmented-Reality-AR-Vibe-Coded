@@ -10,6 +10,8 @@ The app was built partly (although not entirely, see below under the section "Ex
 Three LLM platforms were used rather than the more usual one because the augmented reality toolkit provided by Google, called ARCore, is not well-documented and has inconsistent documentation. Furthermore, some platforms outperformed certain aspects of the app development process than others. That it took three LLM platforms to create this app rather than just one highlights the complexity of the Android app development process.
 
 # App Structure
+This app is made up of around 
+
 
 # Instructions
 
