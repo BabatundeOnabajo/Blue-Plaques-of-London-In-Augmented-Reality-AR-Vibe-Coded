@@ -7,4 +7,8 @@ This is a mobile phone game that users can play in London. It involves hovering 
 
 # Advanced Settings
 
+# Troubleshooting
+
+# Blue Plaque Examples
+
 # Extent of assistance with "vibe coding"
