@@ -6,6 +6,7 @@ The app was built partly (although not entirely, see below under the section "Ex
 1. Amazon Bedrock - Claude Opus 4.1
 2. Amazon Bedrock - Claude Opus 4.5
 3. ChatGPT
+
 Three LLM platforms were used rather than the more usual one because the augmented reality toolkit provided by Google, called ARCore, is not well-documented and has inconsistent documentation. Furthermore, some platforms outperformed certain aspects of the app development process than others. That it took three LLM platforms to create this app rather than just one highlights the complexity of the Android app development process.
 
 # App Structure
