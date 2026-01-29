@@ -13,11 +13,13 @@ Three LLM platforms were used rather than the more usual one because the augment
 # Instructions
 
 # Advanced Settings
+This area is for those who understand the Android development process and want to configure this app so that the app generates images with the help of AWS Bedrock or OpenAI.
 
 # Limitations
 
 # Troubleshooting
 
 # Blue Plaque Examples
+For those not in London or confined to indoors, you can trial out the app at home. Let's use the example of the 20th century economist John Maynard Keynes. He has a Blue Plaque and this is commemorated on the [website of English Heritage](https://www.english-heritage.org.uk/visit/blue-plaques/john-maynard-keynes/).
 
 # Extent of assistance with "vibe coding"
